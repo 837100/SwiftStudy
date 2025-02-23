@@ -9,6 +9,6 @@ for index in 0..<arrayA.count {
         min = arrayA[index]
     }
 }
-print(min)
+print("min= \(min)")
 
 

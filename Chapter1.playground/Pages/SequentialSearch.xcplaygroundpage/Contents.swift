@@ -2,7 +2,6 @@ import Foundation
 
 //let input: Int = Int(readLine()! ?? "0") ?? 0
 let input: Int = 2
-
 let arrayList: [Int] = [5,2,4,1,7,3,8,10,9,6]
 var result: Int = arrayList.count
 
