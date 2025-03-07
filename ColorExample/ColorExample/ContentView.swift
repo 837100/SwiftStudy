@@ -8,14 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
+    let rectColor: UIColor = UIColor(hue: 0.3, saturation: 0.2, brightness: 1, alpha: 1)
+    let rectColor2: Color = Color(hue: 0.3, saturation: 0.3, brightness: 0.8)
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        VStack{
+//            Rectangle().fill(Color(uiColor: rectColor))
+            Rectangle().fill(rectColor2)
         }
-        .padding()
     }
 }
 
