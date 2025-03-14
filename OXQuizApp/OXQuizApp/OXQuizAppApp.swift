@@ -1,14 +1,14 @@
 //
-//  ColorExampleApp.swift
-//  ColorExample
+//  OXQuizAppApp.swift
+//  OXQuizApp
 //
-//  Created by NO SEONGGYEONG on 3/6/25.
+//  Created by SEONGGYEONG NO on 1/10/25.
 //
 
 import SwiftUI
 
 @main
-struct ColorExampleApp: App {
+struct OXQuizAppApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
